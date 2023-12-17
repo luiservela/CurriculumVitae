@@ -8,7 +8,7 @@ Thank you for visiting my repository. Here, you'll find my professional Curricul
 
 In this repository, you'll find:
 
-- `My_CV.pdf`: This is my latest CV, where you can find detailed information about my professional background, education, skills, and any notable projects or experiences.
+- `Luis_Vela_CV.pdf`: This is my latest CV, where you can find detailed information about my professional background, education, skills, and any notable projects or experiences.
 
 ## Viewing the CV
 
