@@ -242,5 +242,5 @@ Before finalizing, verify:
 
 -----
 
-*Manifest version: 1.1 — February 2026 — corrected output format from .docx to .pdf*
+*Manifest version: 1.1 — February 2026*
 *Source: Conversation history analysis + user review and approval*
