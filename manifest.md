@@ -1,246 +1,241 @@
-# CV Baseline Manifest — Luis Vela Vela PhD
+# CV Manifest — Envision Energy "Strategic Position"
 
-## Purpose
+## Branch: `envision-energy-strategic-2026`
 
-This manifest defines the content and structure for a **baseline CV**. It serves as the trunk from which role-specific branches will be created in the future.
+**Base:** Derived from `main` (baseline CV manifest)
 
-### Workflow (for future reference)
-
-```
-main (baseline CV)
- ├── branch: role-specific-company-A
- ├── branch: role-specific-company-B
- └── ...
-```
-
-When a job opening is provided, a new branch is created with a tailored manifest and a modified CV optimized for that specific role.
+**Target company:** Envision Energy (Shanghai HQ, global operations)
+**Contact:** Pierre (Chief Talent Office / General Secretary, reporting to CEO)
+**Role:** Undefined title — described as "strategic position" related to AI meteorology and satellite-based wind prediction
+**Status:** Exploratory — they contacted Luis, not the other way around
 
 -----
 
-## Document Format
+## Company Intelligence Summary
 
-- **Output:** `.pdf`
-- **Length:** 1 page strongly preferred, 2 pages maximum
-- **Design:** Clean, modern, professional layout — similar in style to the current CV (two-column layout with a sidebar for contact/skills and a main body for experience/education)
-- **Font:** Sans-serif (Arial, Calibri, or similar)
-- **Color accent:** Subtle — teal/cyan accent similar to current CV is fine, but keep it professional
+### What Envision Is
 
------
+- World's 2nd largest wind turbine manufacturer (20 Bn USD revenue, founded 2007)
+- Three business sectors: Smart Wind Turbines, Energy Storage, Green Hydrogen Solutions
+- EnOS IoT platform manages 100 GW of energy assets globally
+- Envision Group includes: Envision AESC (batteries, partnerships with Renault/Nissan/Daimler/Honda), Envision Digital, Envision Racing (Formula E)
+- Global R&D centers: Denmark, Germany, Singapore, US, UK, France, China
+- EU expansion underway: green hydrogen park in Spain (first in Europe), projects in Brazil, Australia
+- Named TIME "Green Giant" 2024, MIT Tech Review top 10 smartest companies, CDP A-List, Fortune "Change the World"
 
-## Header / Identity
+### What Matters for This Role
 
-```
-Name:       LUIS VELA VELA PhD
-Headline:   Sr. AI Scientist & ML Team Lead | Computational Physicist
-Email:      vela.vela.luis@gmail.com
-Phone:      +352 661 678965
-Location:   Luxembourg, Luxembourg
-LinkedIn:   Luis Vela Vela
-GitHub:     @luiservela
-Website:    OnlineResume (keep as-is)
-```
+**Dubhe** — Energy Foundation Model (launched Jan 15, 2026 at Abu Dhabi Sustainability Week). Core of their "Physical AI" architecture. Analyzes real-world energy data streams to orchestrate renewable generation, storage, grids, and demand in real time.
 
-**Note on headline:** The current CV headline emphasizes "client engagement" and "solution architectures." The new baseline should lead with the AI Scientist and team leadership identity, while keeping the solution architecture angle as a secondary strength — not the lead.
+**Tianji** — Envision's large-scale weather foundation model. This is the direct match to Luis's expertise. Tianji provides predictive weather intelligence that feeds into Dubhe, allowing their Physical AI to anticipate and respond to weather-driven variability. Renewable energy depends on weather → Tianji makes the whole system work.
 
------
+**Satellite project for wind prediction** — Per interview notes, Envision has a "big project" involving satellites for wind prediction and is talking to Asian and European satellite companies. China can launch satellites relatively easily. This is likely an in-house or partnership-based satellite constellation for proprietary wind observation data.
 
-## Professional Summary
+**"AI for meteorology and satellites — really ambitious"** — Direct quote from interview notes. They want to improve meteorological accuracy with AI, and this capability supports ALL business lines (asset management, energy trading).
 
-Write a 2–3 sentence summary that captures:
+**AI centers** — Biggest in Asia. Significant compute infrastructure.
 
-- Sr. AI Scientist with a PhD in Computational Physics
-- Currently leading an ML team building AI-powered weather forecasting systems
-- Combines deep scientific expertise (NWP, atmospheric science) with production ML engineering and team leadership
-- Proven track record across research (Amazon), HPC solutions engineering (LuxProvide), and operational AI deployment (Spire)
+**Net zero energy parks** — Ordos (Inner Mongolia) is the flagship. Spain, Brazil, Australia planned.
 
-**Tone:** Technical credibility first, business impact second. Not salesy.
+### The Strategic Context
+
+Envision's thesis is that the next frontier of AI is "Physical AI" — AI that governs physical systems (energy grids, turbines, storage) rather than digital ones (text, code). Their weather model Tianji is foundational to this vision because renewables are inherently weather-dependent. Better weather prediction = better energy prediction = more reliable/cheaper renewable energy = competitive advantage across all business lines.
+
+The satellite project suggests they want to OWN their observational data pipeline rather than depend on public data (like ERA5, GFS, COSMIC). This is exactly the kind of vertically integrated, proprietary data advantage that energy companies are pursuing.
 
 -----
 
-## Core Competencies / Skills
+## Fit Analysis: Why Luis Is Almost Purpose-Built for This
 
-Reorganize into the following blocks. **Order matters — lead with the strongest, most distinctive skills.**
-
-### 1. AI/ML & Deep Learning
-
-- ML/DL Frameworks (TensorFlow, PyTorch)
-- AI Weather Models (Aurora, AIFS, FourCastNet, GraphCast)
-- AI-Assisted Development (Claude Code, AI code review, MCP integrations)
-- Experiment Tracking & Model Lifecycle (MLflow)
-- Probabilistic Forecasting & Verification (CRPS, ensemble methods)
-
-### 2. Numerical Weather Prediction & Atmospheric Science
-
-- NWP Pipeline Management (ingestion, preprocessing, inference, postprocessing)
-- GRIB2 Format Expertise (encoding/decoding, packing, parameter definitions)
-- ERA5 Reanalysis (accumulated vs. instantaneous variables, temporal aggregation)
-- Subseasonal-to-Seasonal Forecasting (EC46, weather regimes, weekly aggregations)
-- Weather Model Intercomparison & Verification Tooling
-- Renewable Energy Production Forecasting
-
-### 3. Programming & Development
-
-- Python (primary language — deep proficiency)
-- Data stack: xarray, NumPy, Pandas, Scikit-learn, Matplotlib, Cartopy
-- Distributed/GPU Computing: CuPy, CuDF, CuML, Dask, RAPIDS, Numba
-- Bash scripting
-- FORTRAN (legacy, from PhD — keep but do not rate as highly as Python)
-
-### 4. Infrastructure & DevOps
-
-- HPC Operations (Lmod, SSH, module systems, GPU clusters — A100, H200)
-- Version Control: Git, Bitbucket, GitHub, GitLab
-- CI/CD and Code Quality: pylint, mypy, pytest, coverage
-- Environment Management: Conda
-- Cloud: AWS (basic — do NOT overstate)
-
-### 5. Team Leadership & Management
-
-- First-time manager of ML engineering team (2 direct reports)
-- Established team-wide engineering practices (experiment tracking, shared repositories, documentation, code review)
-- Cross-functional collaboration with academic researchers and non-engineering stakeholders
-- Conflict resolution and workload prioritization
-
-### 6. Languages
-
-- Spanish — Native
-- English — Fluent / Professional
-- French — Professional
-- Serbian — Conversational
-- Czech — Conversational
-- German — Working knowledge (ADD THIS — it was missing from the old CV)
-
-**EXPLICITLY EXCLUDE from skills:**
-
-- Docker (unverified depth)
-- JAX (unverified depth)
-- AWS-cli as a standalone highlighted skill (keep AWS mention minimal/honest)
-- Startup / entrepreneurial experience (no tangible output yet)
-- AI Data Assimilation (promising but implementation status uncertain — revisit when more concrete)
-- Radio Occultation data processing (design-phase only — revisit later)
+|Envision Need                                       |Luis's Experience                                                         |Confidence|
+|----------------------------------------------------|--------------------------------------------------------------------------|----------|
+|AI weather foundation model (Tianji)                |Deploys and operates AIFS, Aurora, FourCastNet; designed AI-DA system     |★★★★★     |
+|Satellite data for wind prediction                  |Works at Spire Global (satellite company); processes satellite obs data   |★★★★★     |
+|Weather → renewable energy forecasting              |One of his team's three core pillars at Spire                             |★★★★☆     |
+|AI/ML at scale on GPU infrastructure                |Daily work on A100/H200 clusters, mixed precision, model training         |★★★★★     |
+|NWP expertise (not just ML, but atmospheric science)|PhD in Computational Physics, deep GRIB2/ERA5/S2S knowledge               |★★★★★     |
+|Strategic/leadership capacity                       |Manages ML team, navigates cross-functional relationships                 |★★★★☆     |
+|European presence for EU secondary HQ               |Based in Luxembourg                                                       |★★★★★     |
+|Asset management & energy trading support           |Weather forecasting directly supports this; less direct trading experience|★★★☆☆     |
+|Satellite company partnerships (Asia/EU)            |Works FOR a satellite company; understands the industry from the inside   |★★★★★     |
 
 -----
 
-## Professional Experience
+## CV Modifications: What to Change from Baseline
 
-### Sr. AI Weather Scientist — Spire Global, Luxembourg (Nov 2022 – Present)
+### Headline
 
-This section needs the most significant upgrade from the current CV. Include:
+**Baseline:** `Sr. AI Scientist & ML Team Lead | Computational Physicist`
 
-- **Team management:** Manage a team of 2 ML engineers. Established team-wide engineering practices including experiment tracking (MLflow), shared repositories, code review standards, and documentation workflows.
-- **AI weather model deployment:** Architected and deployed production infrastructure for multiple AI-based NWP models (AIFS, Aurora). Built model comparison and verification tooling for forecast intercomparison across ensemble statistics, weather regimes, and spatial fields.
-- **Subseasonal forecasting:** Developed subseasonal-to-seasonal (S2S) forecasting pipelines including weather regime classification and ensemble probability tracking.
-- **Data engineering:** Deep expertise in GRIB2 format handling, ERA5 reanalysis data processing (accumulated vs. instantaneous variables, temporal aggregation for model validation), and multi-model data pipelines.
-- **AI-assisted development:** Pioneered adoption of Claude Code for AI-assisted software development on HPC infrastructure, achieving 6–12x speedup in model repository scaffolding (documented in internal case studies).
-- **Renewable energy:** Contributed to weather-to-energy production forecast pipelines.
-- **Stakeholder communication:** Presented technical solutions to internal and external stakeholders ensuring successful project delivery.
+**Envision version:** `Sr. AI Weather Scientist & ML Team Lead | AI-NWP, Satellite Data & Renewable Energy Forecasting`
 
-**Tone:** Concrete, specific, evidence-based. Avoid vague phrases like "led cross-functional team" without saying what was actually done.
+*Rationale:* Make the weather + satellite + energy trifecta visible immediately. Envision's recruiter should see the match in the first 2 seconds.
 
-### Sr. Solutions Engineer — LuxProvide, Luxembourg (Feb 2021 – Nov 2022)
+### Professional Summary
 
-Keep similar to current CV but refine slightly:
+Rewrite to emphasize:
 
-- Conducted technical discovery and designed custom HPC/AI solutions for clients during sales cycles
-- Managed client relationships from initial assessment through deployment
-- Led pre-sales technical presentations
-- Evaluated GPU computing platforms (including H200 infrastructure)
+1. Building and deploying AI weather foundation models (plural — AIFS, Aurora) in production
+1. Working at a **satellite company** (Spire Global) — processing satellite observational data for weather prediction
+1. Transforming weather forecasts into **renewable energy production forecasts**
+1. Managing an ML engineering team that delivers these systems operationally
+1. PhD in Computational Physics — scientific rigor behind the engineering
 
-### Research Scientist — Amazon, Luxembourg (Oct 2019 – Jan 2021)
+**Suggested draft:**
 
-Keep as-is:
+> Sr. AI Weather Scientist leading a team that builds and deploys AI-powered weather forecasting systems at a global satellite data company. Deep expertise in AI numerical weather prediction models (AIFS, Aurora, FourCastNet), satellite observational data processing, and weather-to-energy production forecasting. PhD in Computational Physics with production experience spanning the full NWP pipeline — from satellite data ingestion and AI model inference to ensemble-based renewable energy forecasts. Combines scientific depth with hands-on ML engineering, HPC operations, and team leadership.
 
-- Applied advanced ML and statistical methods to deliver actionable business insights
+### Core Competencies — Reorder and Reframe
 
-**Note:** This role is intentionally brief. Amazon is a strong brand signal — the name does the heavy lifting.
+**PROMOTE to top position (these are the money skills for Envision):**
+
+1. **AI Weather Models & Foundation Models**
+- AI-NWP deployment (AIFS, Aurora, FourCastNet, GraphCast)
+- AI Data Assimilation system design
+- Subseasonal-to-seasonal (S2S) forecasting
+- Weather regime classification and ensemble methods
+- Probabilistic verification (CRPS, ensemble statistics)
+1. **Satellite Data & Observational Systems**
+- Satellite data processing and integration (Spire Global)
+- Radio Occultation (RO) profile handling
+- GRIB2 format expertise and multi-source data pipelines
+- ERA5 reanalysis data processing
+- Weather model intercomparison and verification tooling
+1. **Renewable Energy Forecasting**
+- Weather-to-energy production forecast pipelines
+- Wind and solar resource prediction
+- Asset performance optimization through improved weather accuracy
+1. **ML Engineering & HPC**
+- PyTorch, TensorFlow
+- GPU computing (A100, H200), mixed precision training
+- Distributed computing (CuPy, Dask, RAPIDS, Numba)
+- AI-assisted development (Claude Code)
+- MLflow experiment tracking
+1. **Programming & Data**
+- Python (primary), Bash, FORTRAN
+- xarray, NumPy, Pandas, Matplotlib, Cartopy
+- Git, Bitbucket, CI/CD, Conda
+1. **Leadership**
+- ML team management (2 direct reports)
+- Cross-functional collaboration
+- Stakeholder communication
+
+**DEMOTE or REMOVE for this version:**
+
+- Client-facing / pre-sales skills → remove entirely (not relevant here)
+- "Customer success focused" → remove
+- "Technical discovery expertise" → remove
+- Solution Architecture → keep only if space permits
+- AWS → minimize
+
+### Professional Experience — Spire Global (MAJOR rewrite)
+
+**Current (baseline):** Generic description of ML infrastructure and team management.
+
+**Envision version — lead with what they care about:**
+
+> **Sr. AI Weather Scientist — Spire Global, Luxembourg (Nov 2022 – Present)**
+>
+> Lead a team of ML engineers at a global satellite data and analytics company, building AI-powered weather forecasting systems that serve energy, maritime, and aviation markets.
+>
+> - **AI Weather Models:** Architected and deployed production infrastructure for multiple AI numerical weather prediction models (AIFS, Aurora), including full pipeline management from satellite data ingestion through ensemble-based forecast delivery.
+> - **Satellite Data Integration:** Process and integrate satellite observational data — including radio occultation profiles — into AI weather forecasting workflows, bridging raw satellite observations with ML model inputs.
+> - **Renewable Energy Forecasting:** Develop weather-to-energy production forecast pipelines, translating atmospheric predictions into actionable renewable energy output estimates.
+> - **Subseasonal Forecasting:** Built S2S forecasting pipelines with weather regime classification and ensemble probability tracking across 46-day forecast horizons.
+> - **Model Verification:** Created Python-based forecast intercomparison tooling for multi-model evaluation across ensemble statistics, spatial fields, and weather regime projections.
+> - **Data Engineering:** Deep expertise in GRIB2 format handling, ERA5 reanalysis processing, and multi-model data pipelines at scale.
+> - **AI-Assisted Development:** Pioneered Claude Code adoption on HPC infrastructure, achieving 6–12x speedup in model repository development.
+> - **Team Leadership:** Established engineering practices including experiment tracking (MLflow), shared repositories, code review standards, and documentation workflows.
+
+*Note: The order of bullets is deliberate — weather models first, satellite data second, energy forecasting third. This mirrors Envision's priority stack (Tianji → satellite project → Dubhe/energy).*
+
+### Professional Experience — LuxProvide (REFRAME slightly)
+
+Keep it concise but emphasize the HPC/AI solutions angle, since Envision has massive AI centers:
+
+> **Sr. Solutions Engineer — LuxProvide, Luxembourg (Feb 2021 – Nov 2022)**
+>
+> Designed and delivered custom HPC/AI solutions for clients, including GPU infrastructure evaluation (H200), technical discovery, and solution architecture for compute-intensive scientific workloads.
+
+### Professional Experience — Amazon (keep as-is)
+
+> **Research Scientist — Amazon, Luxembourg (Oct 2019 – Jan 2021)**
+>
+> Applied advanced ML and statistical methods to deliver actionable business insights at scale.
+
+### Client Engagement Section
+
+**REMOVE entirely for this version.** The Envision role is technical/strategic, not sales-facing. The space is better used for expanding the Spire description.
+
+### Key Attributes — Reframe
+
+**Remove:** Customer success focused, Technical discovery expertise, Business value orientation
+
+**Replace with:**
+
+- AI weather model deployment at production scale
+- Satellite-to-forecast pipeline expertise
+- Scientific rigor with operational delivery focus
+- Cross-functional team builder
+
+### Education, Achievements, Publications
+
+**Keep as-is from baseline.** The PhD in Computational Physics and the Summa Cum Laude are strong signals of scientific credibility, which matters for a "strategic" role at a company that values deep technical expertise.
+
+### Languages
+
+Include all — Envision is a Chinese company with global operations. Multilingual ability signals cultural adaptability:
+
+- Spanish (Native), English (Fluent), French (Professional), Serbian (Conversational), Czech (Conversational), German (Working knowledge)
 
 -----
 
-## Client Engagement & Business Impact
+## What to EXPLICITLY NOT Include
 
-Keep this section but **demote it visually** — it should not be as prominent as in the current CV. It's supporting evidence, not the lead story.
+- [ ] No client-facing / pre-sales / sales skills
+- [ ] No Docker, JAX, or AWS-cli as standalone skills
+- [ ] No startup ideas or entrepreneurial ambitions
+- [ ] No "Business value orientation" framing
+- [ ] No exaggeration of energy trading experience (mention renewable forecasting, not trading)
+- [ ] No mention of AI Data Assimilation as "deployed" — can mention as "designed" if space allows
 
-- Managed client relationships from discovery to solution and deployment
-- Led pre-sales presentations leading to HPC solution contracts
-- Architected production-ready infrastructure for AI weather forecasting
-- Deployed two AI-based products with measurable business impact
+## What to EMPHASIZE That Isn't in the Baseline
 
------
-
-## Education
-
-Keep as-is — this is strong and well-presented:
-
-- **PhD in Computational Physics** — UC3M, Madrid | UGent, Ghent (Sep 2013 – Feb 2019)
-  - Specialized in computational methods for complex physical systems. Developed algorithms for HPC environments.
-- **MSc in Plasma Physics** — UC3M, Madrid | UGent, Ghent (Sep 2011 – Jul 2013)
-  - Statistical analysis and modeling of complex dynamic systems.
-- **BSc in Physics** — Charles University, Prague (Sep 2007 – Jul 2010)
-  - Foundation in computational physics and simulation methods.
+- [ ] Spire Global described explicitly as a **satellite company** (this is the key differentiator)
+- [ ] Radio Occultation data — include here since Envision's satellite project makes it directly relevant
+- [ ] AI Data Assimilation design — include here since it shows depth beyond just running existing models
+- [ ] The word "foundation model" should appear naturally (Luis works with models in the same family as Tianji)
+- [ ] "Wind prediction" should appear explicitly (Envision's satellite project is specifically about wind)
+- [ ] S2S / subseasonal forecasting — this is the timescale most relevant to energy asset management
 
 -----
 
-## Achievements & Recognition
+## Design Notes
 
-Keep as-is:
-
-- Outstanding Colombian Abroad — Award by the Colombian Government
-- Summa Cum Laude — PhD Thesis
-- Greatest Distinction — 2013 Erasmus Mundus Master
-- UNESCO Fellowship — Bachelor Studies Scholarship
+- Same two-column layout as baseline
+- If the rewritten Spire section pushes to 2 pages, that's acceptable for this version — the depth matters more than brevity here
+- Consider adding a very brief "Relevant Domain Knowledge" sidebar that lists: AI-NWP, Satellite Observations, Renewable Energy, S2S Forecasting, GRIB2/ERA5, Ensemble Methods
+- The visual hierarchy should make "AI Weather" and "Satellite Data" the two most prominent skill categories
 
 -----
 
-## Selected Publications
+## Quality Checklist (Envision-specific)
 
-Keep as-is:
-
-- Magneto-hydrodynamical nonlinear simulations of magnetically confined plasmas using smooth particle hydrodynamics (SPH)
-- A positioning algorithm for SPH in smoothly curved geometries
-- ALARIC: An algorithm for constructing arbitrarily complex initial density distributions with low particle noise for SPH/SPMHD applications
-
------
-
-## Key Attributes / Personal Traits
-
-**Reframe** from the current sales-oriented attributes to reflect the AI Scientist + Team Lead identity:
-
-- Scientific rigor & reproducibility
-- Team builder & engineering culture advocate
-- Production ML delivery focus
-- Cross-functional communicator (technical ↔ business)
+- [ ] "Satellite" appears in the summary AND in the Spire role description
+- [ ] "Wind" appears at least once (wind prediction, wind energy)
+- [ ] "Renewable energy forecasting" is explicitly stated
+- [ ] AI weather model names are listed (AIFS, Aurora, FourCastNet)
+- [ ] No sales/pre-sales language anywhere
+- [ ] S2S / subseasonal forecasting is mentioned
+- [ ] Team leadership is present but secondary to technical depth
+- [ ] The CV reads as "scientist who leads teams" not "manager who understands science"
+- [ ] Radio occultation is mentioned (connects to their satellite ambitions)
+- [ ] GRIB2 expertise is mentioned (signals operational depth, not just research)
+- [ ] Languages section includes all 6 languages
+- [ ] PhD and Summa Cum Laude are prominent
 
 -----
 
-## Design & Layout Notes for Claude Code
-
-- Two-column layout: narrow left sidebar (contact, skills, languages, attributes) + wide right column (summary, experience, education, achievements, publications)
-- Skill proficiency indicators (the dot ratings in the current CV) are fine to keep but should be used sparingly and honestly
-- Use subtle section dividers — the current CV's horizontal lines with small icons work well
-- Keep whitespace generous — do not cram content
-- If content exceeds 1 page, prioritize: Professional Experience > Skills > Education > Achievements > Publications > Client Engagement
-- The "Client Engagement & Business Impact" section can be folded into the Spire/LuxProvide role descriptions if space is tight, rather than having its own section
-
------
-
-## Quality Checklist
-
-Before finalizing, verify:
-
-- [ ] No skills listed that aren't backed by real experience
-- [ ] FORTRAN is present but not rated at the same level as Python
-- [ ] Docker, JAX, and AWS-cli are NOT prominently featured
-- [ ] German is included in Languages
-- [ ] Bitbucket is included in version control tools
-- [ ] xarray is explicitly mentioned in the data stack
-- [ ] The headline and summary lead with AI Scientist / Team Lead, not Solutions Engineer
-- [ ] The Spire role is the most detailed and prominent experience entry
-- [ ] Claude Code / AI-assisted development appears as a real skill
-- [ ] S2S forecasting and GRIB2 expertise are mentioned
-- [ ] Renewable energy forecasting is included (can be brief)
-- [ ] No startup or entrepreneurial claims
-
------
-
-*Manifest version: 1.1 — February 2026*
-*Source: Conversation history analysis + user review and approval*
+*Manifest version: 1.0 — February 2026*
+*Branch: envision-energy-strategic-2026*
+*Source: Interview notes + Envision public information + conversation history analysis*
