@@ -77,8 +77,8 @@ header h1 {
   width: 48pt;
   height: 48pt;
   border-radius: 50%;
-  background: #546e7a;
   border: 2pt solid var(--accent);
+  object-fit: cover;
 }
 
 /* ===== COLUMNS via float ===== */
