@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Luis Vela <vela.vela.luis@protonmail.com>"]
+channels = ["conda-forge"]
+name = "CurriculumVitae"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+build = "python src/build.py Luis_Vela_CV.pdf"
+clean = "rm -f Luis_Vela_CV.pdf"
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+weasyprint = ">=67.0,<68"

@@ -2,17 +2,51 @@
 
 Hello there! 👋
 
-Thank you for visiting my repository. Here, you'll find my professional Curriculum Vitae (CV), which outlines my career journey, skills, and accomplishments. This document is intended to provide a comprehensive overview of my professional experience and qualifications.
+Thank you for visiting my repository. Here you'll find my professional Curriculum Vitae (CV), authored in HTML/CSS and compiled to PDF using [WeasyPrint](https://weasyprint.org/).
 
 ## What's Inside
 
-In this repository, you'll find:
+```
+CurriculumVitae/
+├── Luis_Vela_CV.pdf           # Baseline CV (the main deliverable)
+├── manifests/
+│   └── baseline.md            # Baseline content strategy
+├── roles/
+│   ├── log.md                 # Log of all role-specific CVs
+│   └── <role-name>/           # Archived tailored CVs
+│       ├── manifest.md
+│       ├── cv.html
+│       └── Luis_Vela_CV.pdf
+└── src/
+    ├── build.py               # Build script
+    ├── cv.css                 # Styling
+    ├── cv.html                # Baseline CV source
+    └── photo.jpeg             # Profile photo
+```
 
-- `Luis_Vela_CV.pdf`: This is my latest CV, where you can find detailed information about my professional background, education, skills, and any notable projects or experiences.
+## How It Works
+
+The CV source lives in `src/cv.html` + `src/cv.css` and gets compiled to PDF with WeasyPrint. The baseline version on `main` is a general-purpose CV covering all my experience.
+
+When I apply to a specific role, I tailor the CV and archive the result to `roles/<role-name>/` — keeping a full record of every version without cluttering the repo with stale branches. See `roles/log.md` for a summary of all past applications.
+
+## Building the CV
+
+### Prerequisites
+
+- Python 3
+- [WeasyPrint](https://weasyprint.org/): `pip install weasyprint`
+
+### Commands
+
+```bash
+make          # Build the PDF from src/cv.html + src/cv.css
+make clean    # Remove the compiled PDF
+```
 
 ## Viewing the CV
 
-To view my CV, simply click on the `My_CV.pdf` file. You can view it directly on GitHub or download it for offline viewing.
+To view my CV, click on [`Luis_Vela_CV.pdf`](Luis_Vela_CV.pdf). You can view it directly on GitHub or download it.
 
 ## Contact Me
 
@@ -24,4 +58,4 @@ Your feedback is highly appreciated! If you have any suggestions or comments, pl
 
 ---
 
-Thank you for your interest in my professional profile. I look forward to connecting with you!
+Thank you for your interest in my professional profile. I look forward to connecting with you! 🚀
